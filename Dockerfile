@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim
+FROM debian:12.4-slim
 
 COPY . /tmp/dotfiles
 
