@@ -219,19 +219,6 @@ pane_frames false
 // Once these themes are defined, one of them should to be selected in the "theme" section of this file
 //
 themes {
-    monokai{
-        fg "#FFFFFF"
-        bg "#608B4E"
-        black "#1a1a1a"
-        red "#f4005f"
-        green "#98e024"
-        yellow "#fa8419"
-        blue "#9d65ff"
-        magenta "#f4005f"
-        cyan "#58d1eb"
-        white "#c4c5b5"
-        orange 255 184 108
-    }
     dark_plus {
         fg "#D4D4D4"
         bg "#608B4E"
@@ -246,53 +233,26 @@ themes {
         orange "#CE9178"
     }
 
-    dracula {
-        fg 248 248 242
-        bg 40 42 54
-        red 255 85 85
-        green 80 250 123
-        yellow 241 250 140
-        blue 98 114 164
-        magenta 255 121 198
-        orange 255 184 108
-        cyan 139 233 253
-        black 0 0 0
-        white 255 255 255
+    aura_dark {
+        fg "#edecee"
+        bg "#15141b"
+        black "#110f18"
+        red "#ff6767"
+        green "#61ffca"
+        yellow "#D7BA7D"
+        blue "#a277ff"
+        magenta "#a277ff"
+        cyan "#61ffca"
+        white "#edecee"
+        orange "#ffca85"
     }
 
-    one-half-dark {
-        fg 220 223 228
-        bg 40 44 52
-        black 27 29 35
-        red 227 63 76
-        green 152 195 121
-        yellow 229 192 123
-        blue 97 175 239
-        magenta 198 120 221
-        cyan 86 182 194
-        white 233 225 254
-        orange 216 133 76
-    }
-
-    catppuccin-mocha {
-        bg "#585b70"
-        fg "#cdd6f4"
-        red "#f38ba8"
-        green "#a6e3a1"
-        blue "#89b4fa"
-        yellow "#f9e2af"
-        magenta "#f5c2e7"
-        orange "#fab387"
-        cyan "#89dceb"
-        black "#181825"
-        white "#cdd6f4"
-    }
 }
 
 // Choose the theme that is specified in the themes section.
 // Default: default
 //
-theme "dark_plus"
+theme "aura_dark"
 
 // The name of the default layout to load on startup
 // Default: "default"
